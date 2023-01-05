@@ -1,0 +1,15 @@
+select * from customer
+ insert into customer
+ values(8 ,'sachin', 'Bhagt',' Hamburg', 'Germany',4567891233)
+select * from customer
+
+select * from OrderItem
+select * from Product
+ 
+ select*from customer where Country like ' A%' or  country like'I%'
+  select*from customer where FirstName like '__i'
+
+  alter table [Order]
+  add constraint FK_Order Foreign key (ID) 
+  references customer (id)
+ 
